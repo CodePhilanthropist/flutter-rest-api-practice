@@ -1,2 +1,4 @@
+@baseURL = ""
+@authorization = tests
 POST {{baseURL}}/token
 Authorization: Basic{{authorizaiton}}
