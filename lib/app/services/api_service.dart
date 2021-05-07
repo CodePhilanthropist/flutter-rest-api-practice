@@ -21,6 +21,8 @@ class APIService {
         return accessToken;
       }
     }
+    print(
+        'Request: ${api.tokenUri()} failed\n Reponse: ${response.statusCode} ${response.reasonPhrase}');
     throw response;
   }
 }
